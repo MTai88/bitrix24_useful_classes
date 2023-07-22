@@ -21,4 +21,17 @@ $data = [
 $segment->upload($data);
 ```
 
- 
+### 2. `ChatService` - Class to work with Im chat module
+- Class directory - `/im/`
+- Example:
+```
+use Mymodule\Im\ChatService;
+
+$chat = new ChatService;
+$chat->add(
+    "Test chat", // Chat title 
+    1   // Author Id
+);
+$chat->addUser(1032);
+$chat->addMessage(1, "Test message");
+```
