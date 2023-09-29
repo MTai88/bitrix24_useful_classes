@@ -1,6 +1,6 @@
 <?php
 
-namespace Mymodule\Sender;
+namespace MTai\Sender;
 
 use Bitrix\Main\Errorable;
 use Bitrix\Main\ErrorCollection;

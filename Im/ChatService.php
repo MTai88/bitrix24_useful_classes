@@ -1,6 +1,6 @@
 <?php
 
-namespace Mymodule\Im;
+namespace MTai\Im;
 
 use Bitrix\Main\Loader;
 use Bitrix\Main\LoaderException;
